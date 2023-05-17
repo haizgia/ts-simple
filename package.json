@@ -1,0 +1,46 @@
+{
+  "name": "ts-seq-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/es6-promise": "^3.3.0",
+    "@types/express": "^4.17.17",
+    "@types/express-validator": "^3.0.0",
+    "@types/http-errors": "^2.0.1",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^18.16.3",
+    "@types/sequelize": "^4.28.15",
+    "sequelize-cli": "^6.6.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/helmet": "^4.0.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.2.4",
+    "sequelize": "^6.31.1",
+    "sequelize-typescript": "^2.1.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
