@@ -2,7 +2,6 @@ import { json } from 'body-parser';
 import * as bcrypt from 'bcrypt';
 import * as jwt from 'jsonwebtoken';
 import { User, UserAddModel, UserViewModel, UserModel} from '../models/user.model'
-
 export class UserService {
   private readonly _saltRounds = 12
   readonly _jwtSecret  = '0.rfyj3n9nzh'
